@@ -1,5 +1,5 @@
 /* This file is for your main application css. */
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:300');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:300,700');
 
 img.face {
   height: 150px;
@@ -17,3 +17,43 @@ ul {
   list-style: none;
 }
 
+.container .main{
+  min-height: 100vh;
+  background-image: url("/images/mainback.jpg");
+  background-size: cover;
+}
+
+.container .politics{
+  min-height: 100vh;
+  background-image: url("/images/imana.png");
+  background-size: cover;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p.my-politics {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid black 1px;
+  max-width: 40%
+}
+img.mainback {
+  width: 100%;
+  opacity: 0.5;
+}
+
+a {
+  text-decoration-style: dotted;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: lime;
+}
