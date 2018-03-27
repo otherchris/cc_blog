@@ -1,14 +1,30 @@
 <div class="container politics">
-  <p class="my-politics">
-    My politics are a radical commitment to compassion, justice, and democracy <em>in that order</em>, full stop.
-  </p>
-  <p class="my-politics">
-    Everywhere the bosses have the power and make the decisions. Capital's victory is comprehensive and total.
-  </p>
-  <p class="my-politics">
+  <div class="column">
+    <div class="half-image">
+      <img class="author" src="/images/author.png" />
+    </div>
+    <p class="my-politics half">
+      Everywhere the bosses have the power and make the decisions. Capital's victory is comprehensive and total.
+    </p>
+  </div>
+  <div class="column column-right">
+    <p class="my-politics half">
+      My politics are a radical commitment to compassion, justice, and democracy <em>in that order</em>, full stop.
+    </p>
+    <div class="half-image">
+      <img class="author" src="/images/imana.png" />
+    </div>
+  </div>
+  <p class="my-politics full">
     Having won the material battle, capital entrenches itself inside all of us, leveraging its vast power to preempt any meaningful challege.
   </p>
-  <p class="my-politics">
-  "You can fight me," capital says "but first you have carve out a life according to my rules, and then you have to dig me out from inside your own consicousness. Aren't you tired of fighting after all that?"
+  <div class="full-image">
+    <img class="week" src="/images/week.png" />
+  </div>
+  <p class="my-politics full">
+  <q>You can fight me,</q> capital says, <q>but first you have carve out a life according to my rules, and then you have to dig me out from inside your own consicousness. Aren't you tired of fighting after all that?</q>
   </p>
+  <div class="full-image">
+    <img class="week" src="/images/door.png" />
+  </div>
 </div>
