@@ -1,0 +1,25 @@
+div.strip-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+div.frame {
+  width: 50%;
+}
+
+div.frame-half: {
+  width: 50%;
+}
+
+div.red {
+  background-color: red;
+}
+
+div.green {
+  background-color: green;
+}
+
+div.blue {
+  background-color: blue;
+}

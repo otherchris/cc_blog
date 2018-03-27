@@ -1,0 +1,23 @@
+<div class="strip-container">
+  <div class="frame frame-half red">
+    h
+  </div>
+  <div class="frame frame-half blue">
+    h
+  </div>
+  <div class="frame frame-full-shrink green">
+    h
+  </div>
+  <div class="frame frame-full red">
+    h
+  </div>
+  <div class="frame frame-full-shrink blue">
+    h
+  </div>
+  <div class="frame frame-half green">
+    h
+  </div>
+  <div class="frame frame-half red">
+    h
+  </div>
+</div>

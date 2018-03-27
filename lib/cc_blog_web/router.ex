@@ -18,6 +18,7 @@ defmodule CcBlogWeb.Router do
 
     get "/", PageController, :index
     get "/politics", PageController, :politics
+    get "/strip_test", PageController, :strip_test
   end
 
   # Other scopes may use custom stacks.

@@ -8,4 +8,8 @@ defmodule CcBlogWeb.PageController do
   def politics(conn, _params) do
     render conn, "politics.html"
   end
+
+  def strip_test(conn, _params) do
+    render conn, "strip_test.html"
+  end
 end
