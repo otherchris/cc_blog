@@ -2,14 +2,7 @@ div.strip-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%
-}
-
-div.frame {
-  width: 50%;
-}
-
-div.frame-half: {
-  width: 50%;
+  align-items: center;
 }
 
 div.red {
@@ -22,4 +15,42 @@ div.green {
 
 div.blue {
   background-color: blue;
+}
+
+div.frame-half {
+  width: 100%;
+}
+
+div.frame-full {
+  min-width: 200%;
+  overflow: scroll;
+}
+
+div.frame-full-shrink {
+  width: 100%;
+}
+
+div.frame {
+  min-height: 30vh;
+}
+
+div.frame.frame-half {
+  width: 100%;
+  min-height: 40vh;
+}
+
+@media screen and (min-aspect-ratio: 8/7) {
+  div.frame {
+  }
+
+  div.frame.frame-half {
+    width: 50%;
+    min-height: 70vh;
+  }
+
+  div.frame-full, div.frame-full-shrink {
+    min-width: 100%;
+    min-height: 40vh;
+  }
+
 }
