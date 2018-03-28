@@ -1,21 +1,34 @@
 <div class="strip-container">
-  <div class="frame frame-half red">
-    h
+  <div class="frame frame-half">
+    <img src="/images/author.png" />
   </div>
-  <div class="frame frame-half blue">
-    h
+  <div class="frame frame-half">
+    <p>
+      My politics are a radical commitment to compassion, justice, and democracy <em>in that order</em>, full stop.
+    </p>
   </div>
-  <div class="frame frame-full-shrink green">
-    h
+  <div class="frame frame-half">
+    <p>
+      Everywhere the bosses have the power and make the decisions. Capital's victory is comprehensive and total.
+    </p>
   </div>
-  <div class="frame frame-full red">
-    h
+  <div class="frame frame-half">
+    <img src="/images/imana.png" />
   </div>
-  <div class="frame frame-full-shrink blue">
-    h
+  <div class="frame frame-shrink">
+    <p>
+    Having won the material battle, capital entrenches itself inside all of us, leveraging its vast power to preempt any meaningful challege.
+    </p>
   </div>
-  <div class="frame frame-half green">
-    h
+  <div class="frame frame-full">
+    <img class="week" src="/images/week.png" />
+  </div>
+  <div class="frame frame-shrink">
+    <p>
+      <q>You can fight me,</q> capital says, <q>but first you have carve out a life according to my rules, and then you have to dig me out from inside your own consicousness. Aren't you tired of fighting after all that?</q>
+    </p>
+  <div class="frame frame-full">
+    <img class="week" src="/images/door.png" />
   </div>
   <div class="frame frame-half red">
     h

@@ -5,6 +5,17 @@ div.strip-container {
   align-items: center;
 }
 
+.strip-container img {
+  object-fit: cover;
+}
+
+.strip-container p {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  vertical-align: center;
+}
+
 div.red {
   background-color: red;
 }
@@ -22,8 +33,7 @@ div.frame-half {
 }
 
 div.frame-full {
-  min-width: 200%;
-  overflow: scroll;
+  min-width: 300%;
 }
 
 div.frame-full-shrink {
@@ -50,7 +60,6 @@ div.frame.frame-half {
 
   div.frame-full, div.frame-full-shrink {
     min-width: 100%;
-    min-height: 40vh;
   }
 
 }
