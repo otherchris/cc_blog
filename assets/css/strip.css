@@ -14,18 +14,8 @@ div.strip-container {
   font-size: 2rem;
   font-weight: 700;
   vertical-align: center;
-}
-
-div.red {
-  background-color: red;
-}
-
-div.green {
-  background-color: green;
-}
-
-div.blue {
-  background-color: blue;
+  border: solid 4px black;
+  padding-left: 0.5rem;
 }
 
 div.frame-half {
@@ -56,6 +46,10 @@ div.frame.frame-half {
   div.frame.frame-half {
     width: 50%;
     min-height: 70vh;
+  }
+
+  div.frame.frame-half p {
+    margin-top: 35%
   }
 
   div.frame-full, div.frame-full-shrink {
